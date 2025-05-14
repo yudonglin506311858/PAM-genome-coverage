@@ -3,12 +3,17 @@
 #软件功能：给定任意基因组序列和PAM，可以计算该PAM结合到基因组的位置，数量和比例。
 
 #输入：
+
 -genome 具体的基因组序列文件
+
 -pam 具体的PAM如NGG
+
 -t 具体使用的线程
+
 
 #输出：
 -o 输出的文件名如results_demo.txt
+
 tail  results_demo.txt查看具体的比例
 
 
