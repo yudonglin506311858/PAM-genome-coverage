@@ -28,4 +28,7 @@ python /data/yudonglin/software/genome_coverage/genome_coverage_multicore.py  -g
 ![image](https://github.com/user-attachments/assets/18263797-34ca-4f5d-a0f3-03461855d316)
 
 
+#在人类基因组搜索
+
+python /data2/yudonglin/yutao/genome_coverage/genome_coverage_multicore.py  -genome /data/yudonglin/reference/human/hg19/hg19.fa -pam NGG -o NGG_results.txt  -t 60
 
