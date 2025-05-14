@@ -15,9 +15,12 @@ tail  results_demo.txt查看具体的比例
 #示例：
 
 cd /data/yudonglin/software/genome_coverage
+
 python /data/yudonglin/software/genome_coverage/genome_coverage_multicore.py  -genome demo.fa -pam NGG -o ngg_results_demo.txt  -t 60
+![image](https://github.com/user-attachments/assets/a67e2531-6e1e-4d0b-a7a0-18b8ead9ac4f)
+
 python /data/yudonglin/software/genome_coverage/genome_coverage_multicore.py  -genome demo.fa -pam A -o A_results_demo.txt  -t 60
-python /data/yudonglin/software/genome_coverage/genome_coverage_multicore.py  -genome demo.fa -pam C -o C_results_demo.txt  -t 60
-python /data/yudonglin/software/genome_coverage/genome_coverage_multicore.py  -genome demo.fa -pam T-o T_results_demo.txt  -t 60
-python /data/yudonglin/software/genome_coverage/genome_coverage_multicore.py  -genome demo.fa -pam G -o G_results_demo.txt  -t 60
+![image](https://github.com/user-attachments/assets/18263797-34ca-4f5d-a0f3-03461855d316)
+
+
 
